@@ -1,4 +1,6 @@
+calcField = document.getElementById('calcField');
+calcField.value = '';
 function buttonClick(element) {
-  document.getElementById('calcField').value = element.textContent;
+  calcField.value = element.textContent;
   console.log(element);
 }
